@@ -20,7 +20,7 @@ import org.eclipse.microprofile.reactive.messaging.Emitter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@Path("/produce")
+@Path("/")
 public class KafkaProducerResource {
 
     private static final Logger log = LoggerFactory.getLogger(KafkaProducerResource.class);
